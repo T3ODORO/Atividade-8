@@ -1,0 +1,27 @@
+<form id="calculadoraForm">
+    <div class="mb-3">
+      <label for="numeroA" class="form-label">Número A:</label>
+      <input type="number" class="form-control" id="numeroA" required>
+    </div>
+  
+    <div class="mb-3">
+      <label for="numeroB" class="form-label">Número B:</label>
+      <input type="number" class="form-control" id="numeroB" required>
+    </div>
+  
+    <div class="mb-3">
+      <label for="operacao" class="form-label">Operação:</label>
+      <select class="form-select" id="operacao" required>
+        <option value="+">Adição (+)</option>
+        <option value="-">Subtração (-)</option>
+        <option value="*">Multiplicação (*)</option>
+        <option value="/">Divisão (/)</option>
+      </select>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Calcular</button>
+  </form>
+  
+  <div id="resultado"></div>
+  <button type="button" class="btn btn-primary" id="novoCalculo">Novo Cálculo</button>
+  
